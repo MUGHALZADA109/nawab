@@ -1050,33 +1050,13 @@ banner = """
   \33[0;92m                                            
   \33[0;92m└─────────────────────────────────────────────────────────┘  \033                                     
 \33[0;92m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\33[0;92m█  \32Author  :\033[0;99m MUGHAL ZADA 
+\33[0;92m█  \32Author  :\033[0;99m NAWAB BRAND 
 \33[0;92m█  \32Facebook: \033[0;97mAɭoŋɘ ɭovɘʀ
 \33[0;92m█  \32Status  : \033[0;98mPremium 
-\33[0;92m█  \32Version : \033[0;97m0.2 V
+\33[0;92m█  \32Version : \033[0;97m0.3 V
 \33[0;92m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
 """
-def main_apv():
-  uuid = str(os.geteuid()) + str(os.getlogin()) 
-  id = "|".join(uuid)
-  print("\n\n\x1b[32;1m  YOUR KEY : \033[94m"+id) 
-  try: 
-    httpCaht = requests.get("https://raw.githubusercontent.com/XD-MUGHAL00/key/main/Key.txt").text 
-    if id in httpCaht: 
-      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
-      msg = str(os.geteuid()) 
-      time.sleep(3) 
-      pass 
-    else: 
-      print("\033[0;96m YOUR key IS NOT ACTIVE\n THIS TOOL IS PAID\n IF YOU BUY MY TOOL\n SO YOUR KEY COPY AND SEND ME MESSAGE ON WHATSAPP  ") 
-      os.system('xdg-open https://wa.me/+923239021979?text=Hello%2C%20MUGHAL%20I%20want%20to%20buy%20your%20command%20Random%20clone')
-      time.sleep(3) 
-      sys.exit() 
-  except: 
-    sys.exit() 
-    if name == '__main__': 
-     print (logo)
-     sex()
+
 ct = datetime.now()
 n = ct.month
 monthsx = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
@@ -1093,4 +1073,4 @@ _ses=requests.Session()
 
 if __name__=='__main__':
 	os.system('git pull')
-main_apv()
+main()
